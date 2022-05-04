@@ -13,3 +13,5 @@ Get a little bit of thing about models and database in our project
 - models 
 ## part 3 of tuto
 Get how to build a template with the gabarit in django and how couplage work correctly
+## part 4 of tuto
+Get more about how view fonction and how to make post add or modify our database with post method
