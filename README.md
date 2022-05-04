@@ -16,4 +16,4 @@ Get how to build a template with the gabarit in django and how couplage work cor
 ## part 4 of tuto
 Get more about how view fonction and how to make post add or modify our database with post method
 ## part 5 of tuto
-Getting introduction of test in django
+Getting introduction of test in djangoa
