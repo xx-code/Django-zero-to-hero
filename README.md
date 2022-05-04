@@ -3,6 +3,7 @@
 This project is my pathway to learn django. 
 ## part 1 of tuto
 Get base knowledje of python app and so thing to build a good starting pack
+commande git bash create superuser: winpty pyhon manage.py createsuperuser
 ### Step
 - djange-admin startproject mysite: commande pour creer un projet
 - python manage.py runserver : pour lancer le serveur django
