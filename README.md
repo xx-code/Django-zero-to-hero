@@ -20,3 +20,6 @@ Get more about how view fonction and how to make post add or modify our database
 Getting introduction of test in djangoa
 ## part 6 of tuto
 Get how to use static file in our project
+
+# Project: TODO
+After learning django we have to try to strengthen our knowledges.
