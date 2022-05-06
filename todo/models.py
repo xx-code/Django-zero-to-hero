@@ -18,6 +18,12 @@ class Task(models.Model):
     
     @property
     def sort_description(self):
-        raise('Methode not implemented')
+        if len(self.detail) > 70:
+            sort_detail = ''
+            for index_char in range(67):
+                sort_detail += self.detail[index_char]
+            sort_detail += '...'
+            return sort_detail
+        return self.detail 
 
 
