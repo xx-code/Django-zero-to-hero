@@ -1,0 +1,96 @@
+.box-main {
+    width: 100%;
+    height: 100%;
+}
+
+.box-main .box-content {
+    padding-top: 70px;
+    margin: auto;
+    width: 50%;
+}
+
+.top-bar .top-bar-content {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar .top-bar-content .top-title {
+    flex: 1;
+    text-align: center;    
+}
+
+.top-bar .top-bar-content .top-title h1 {
+    color: #292b2d;
+    font-size: 35px;
+}
+
+.top-bar .top-bar-content .top-action {
+    margin: 0 10px 10px 10px 10px;
+}
+
+.top-bar .top-bar-content .top-action button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #038aff;
+    color: white;
+    border-radius: 5px;
+}
+
+.list-task {
+    display: flex;
+    justify-content: center;
+}
+
+.add-task-form {
+    display: flex;
+    justify-content: center;
+}
+
+.list-task .list-task-content {
+    margin-top: 18px;
+}
+
+.list-task .list-task-content h3{
+    font-weight: 100;
+    text-align: center;
+}
+
+.add-task-form form {
+    width: 50%;
+}
+
+.add-task-form form fieldset {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.add-task-form form label {
+    font-weight: 500;
+}
+
+.add-task-form form .fieldset-custom {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-task-form form .input-custom {
+    height: 25px;
+} 
+
+.add-task-form form textarea {
+    height: 80px;
+} 
+
+.add-task-form form .button-box .button-custom{
+    border: none;
+    padding: 5px 20px;
+    color: white;
+}
+
+.add-task-form form .button-box .button-cancel{
+    background-color: #E74C3C;
+}
+
+.add-task-form form .button-box .button-add{
+    background-color: #038aff;
+}

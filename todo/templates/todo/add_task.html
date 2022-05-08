@@ -1,0 +1,45 @@
+{% load static %}
+<link rel='stylesheet' type='text/css' href='{% static "todo/styles.css" %}' >
+<div class="box-main">
+    <div class="content-box">
+        <div class="top-bar">
+            <div class="top-bar-content">
+                <div class="top-title">
+                    <h1>Ajouter une tache</h1>
+                </div>
+            </div>
+        </div>
+        <div class="add-task-form">
+            <form>
+                <fieldset class="fieldset-custom">
+                   <label>Titre</label>
+                    <input class="input-custom" type="text" > 
+                </fieldset>
+                <fieldset class="fieldset-custom">
+                    <label>Avant le</label>
+                    <input class="input-custom" type="date">
+                </fieldset>
+                <label>Importance</label>
+                <fieldset>
+                    <label>Faible</label>
+                    <input type="radio">
+                    <label>Normal</label>
+                    <input type="radio">
+                    <label>Important</label>
+                    <input type="radio">
+                </fieldset>
+                <fieldset class="fieldset-custom">
+                    <label>Detail</label>
+                    <textarea>
+                    </textarea>
+                </fieldset>
+                <div class="button-box">
+                    <div class="button-content">
+                        <button class="button-custom button-cancel" >Annuler</button>
+                        <button class="button-custom button-add" >Ajouter</button>
+                    </div>
+                <div>
+            </form>
+        </div>
+    </div>
+</div>  
